@@ -1,0 +1,13 @@
+@mixin text-font {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin process-generator(){
+  @for $i from 0 through 20{
+    .progress-#{$i * 5}{
+      &::after{
+        left: percentage($i * 5) / 100;
+      }
+    }
+  }
+}

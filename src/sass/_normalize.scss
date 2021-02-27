@@ -1,0 +1,17 @@
+@import "~normalize.css/normalize.css";
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+
+  &:hover,
+  &:link,
+  &:active {
+    color: $color-white;
+  }
+}
+
+body {
+  scroll-behavior: smooth;
+}

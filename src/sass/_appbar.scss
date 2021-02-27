@@ -1,0 +1,45 @@
+.page-header {
+  color: $color-background;
+  background: $color-secondary;
+  padding-left: 0;
+  padding-right: 0;
+
+  nav{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  nav div ul a{
+    color: $color-white;
+    &.active{
+      background: $color-background;
+      color: $color-secondary;
+      border-radius: 3px;
+    }
+  }
+  svg{
+    fill: $color-white;
+  }
+  .navbar-brand{
+    color: $color-background;
+    font-size: 32px;
+    padding-left: 20px;
+    font-weight: 600;
+  }
+  .navbar{
+    padding:0;
+  }
+  
+
+}
+
+@media only screen and (max-width:600px){
+  .page-header{
+    button.navbar-toggler{
+      padding-top: 15px;
+    }
+    div ul li span{
+      padding-right: 12px;
+    }
+  }
+}

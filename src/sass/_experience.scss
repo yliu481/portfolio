@@ -1,0 +1,24 @@
+.experiences{
+    margin: 0 auto;
+    background: $color-background;
+
+    h2{
+        color: $color-secondary;
+    }
+
+    h3{
+        color: $color-secondary;
+        padding: 15px 0;
+    }
+
+    .span-info {
+        color: $color-accent;
+        svg {
+            fill: $color-accent;
+        }
+    }
+
+    a{
+        color: $color-accent;
+    }
+}

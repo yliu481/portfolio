@@ -1,0 +1,20 @@
+.projects {
+  h2{
+    color: $color-secondary;
+  }
+
+  .project {
+    .img-link{
+      width: 100%;
+      height:auto;
+      padding:8px;
+      display: inline-block;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+//layout
+$max-width: 1140px;
+
+// color
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #333;
+$color-secondary: #127C97;
+$color-background: #FBFBFF;
+$color-accent:#D63D43;
+
+
+
+//font
+$header-font-family:'Roboto', sans-serif;
+$family-font-family:'Roboto', sans-serif;
+
+//button
+$button-primary-color: $color-secondary;
+$button-primary-color-hover:$color-background;
+$button-primary-background-color: $color-background;
+$button-primary-background-color-hover: #b3b3b6;
+
+$button-secondary-color: $color-background;
+$button-secondary-color-hover:$color-secondary;
+$button-secondary-background-color: $color-secondary;
+$button-secondary-background-color-hover: $color-background;
+
+//form
+

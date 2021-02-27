@@ -1,0 +1,39 @@
+.profile {
+    margin: 0 auto;
+
+    hr {
+        margin:40px 0;
+    }
+
+    h2{
+        text-align: center;
+        color:$color-secondary
+    }
+
+    h3 {
+        color: $color-secondary;
+    }
+
+    p.lead{
+        text-align: center;
+    }
+
+    .row > div img{
+        max-width: 246px;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        border: solid 3px $color-secondary;
+        
+    }
+
+    .media-group{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 0;
+
+        svg{
+            fill: $color-secondary;
+        }
+    }
+}
