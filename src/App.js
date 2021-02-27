@@ -1,9 +1,8 @@
-import React, {useEffect}  from "react";
+import React from "react";
 import "./sass/main.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AppBar from "./components/AppBar";
-import Summary from "./components/Summary";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Banner from "./components/Banner";

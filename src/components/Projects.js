@@ -10,6 +10,7 @@ const settings = {
   autoplay:true,
   autoplaySpeed:5000,
   arrows:false,
+  lazyLoad: true,
   responsive:[
     {
       breakpoint:576,
@@ -42,7 +43,7 @@ const BizMSMProject = (props) => {
           <Slider {...settings}>
             <div>
               <div className="img-link" >
-                <img src={require("../images/bizmsm/index.png")} alt="BizMSM index"/>
+                <img src={require("../images/bizmsm/index.png")} alt="BizMSM index" />
               </div>
             </div>
             
@@ -92,20 +93,6 @@ const BizMSMProject = (props) => {
     </div>
   );
 };
-
-const Sneaker = ()=>{
-  return(
-    <div className="container">
-      <div className="card">
-        <div className="sneaker">
-          <div className="circle"></div>
-          <img src={require('../images/yi.jpg')} alt=""/>
-        </div>
-      </div>
-    </div>
-
-  )
-}
 
 const EmailyProject = (props) => {
   const { text, title } = props;
