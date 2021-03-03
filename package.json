@@ -5,15 +5,11 @@
   "description": "Yi's portfolio",
   "homepage": ".",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "aos": "^2.3.4",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "4.0.0",
     "react-scroll": "^1.8.1",
     "react-slick": "^0.28.0",
     "slick-carousel": "^1.8.1"
@@ -21,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +35,17 @@
       "last 1 safari version"
     ]
   },
-  "author": "Yi Liu"
+  "author": "Yi Liu",
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.8"
+  },
+  "jest":{
+    "setupFiles":[
+      "./setupTests.js"
+    ]
+  }
 }

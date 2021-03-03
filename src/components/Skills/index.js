@@ -1,4 +1,5 @@
 import React from 'react';
+import Skill from './Skill';
 
 const skillList = [
     {
@@ -35,21 +36,6 @@ const skillList = [
     },
 ]
 
-const Skill = ({skill})=>{
-
-    return(
-        <div className="skill">
-            
-            <div className="skill-name">
-                <span>{`${skill.name} `}</span><span className="score"> {`(${skill.score}%)`}</span>
-            </div>
-            <div className="card-info">
-                <div className={`progress progress-${skill.score}`}></div>
-            </div>
-        </div>
-    );
-}
-
 const Skills = () => {
     return (
         <div className="skills pt-3 pt-md-5"  id="projects">
@@ -60,12 +46,12 @@ const Skills = () => {
                 <div className="row">
                     <div className="col-md-6" >
                         {skillList?skillList.slice(0,4).map((item, index)=>{
-                            return  <Skill  skill = {item}/>
+                            return  <Skill  skill = {item} key={`skill-1-${index}`}/>
                         }):''}
                     </div>
                     <div className="col-md-6">
                         {skillList?skillList.slice(4).map((item, index)=>{
-                            return <Skill  skill = {item}/>
+                            return <Skill  skill = {item} key={`skill-2-${index}`}/>
                         }):''}
                     </div>
                     
