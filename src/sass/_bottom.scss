@@ -1,31 +1,42 @@
-.bottom{
-    .container{
-        padding-bottom: 180px;
+.bottom {
+  .container {
+    padding-bottom: 180px;
+  }
+  background: $color-secondary;
+  color: $color-white;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      padding-bottom: 8px;
     }
-    background: $color-secondary;
-    color: $color-white;
-    h2{
-        text-align: center;
+    a {
+      color: $color-white;
+      svg {
+        fill: $color-white;
+        margin-right: 15px;
+      }
     }
-    ul{
-        list-style-type: none;
-        padding:0;
-        margin: 0;
-        li{
-            padding-bottom: 8px;
-        }
-        a{
-            color: $color-white;
-            svg{
-                fill: $color-white;
-                margin-right: 15px;
-            }
-        }
-        
-    }
+  }
 
-    .button-group .button {
-        border-radius: 3px;
-        padding: 5px 8px;
-    }
+  .button-group .button {
+    border-radius: 3px;
+    padding: 5px 8px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .hero-banner {
+    padding: 0 12px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .bottom .lead {
+    display: flex;
+    flex-direction: column;
+  }
 }
