@@ -26,6 +26,8 @@
   .button-group .button {
     border-radius: 3px;
     padding: 5px 8px;
+    display: inline-block;
+    margin-bottom: 18px;
   }
 }
 
@@ -35,8 +37,13 @@
   }
 }
 @media only screen and (max-width: 610px) {
-  .bottom .lead {
-    display: flex;
-    flex-direction: column;
+  .bottom {
+    .lead {
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      padding-bottom: 30px;
+    }
   }
 }
