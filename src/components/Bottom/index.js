@@ -121,7 +121,7 @@ const Bottom = () => {
           <div className="col-md-6">
             <a
               className="button button-primary"
-              href={resume}
+              href="https://github.com/yliu481"
               target="_blank"
               rel="noopener noreferrer"
             >

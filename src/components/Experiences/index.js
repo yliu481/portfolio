@@ -20,8 +20,17 @@ const eduList = [
 
 const careerList = [
   {
+    name: "IHS Markit",
+    time: "April 2021 - Present",
+    role: "Software Developer",
+    description: `
+    •	Working in an agile team as a Full-stack web developer to build and maintain projects using React, Node.js, .Net MVC5 and SQL.
+    `,
+    location: "Ottawa, Canada",
+  },
+  {
     name: "Freelance",
-    time: "April 2020 - Present",
+    time: "April 2020 - April 2021",
     role: "Web Developer",
     description: `<a href = "https://dpagold.com/">DPA GOLD https://dpagold.com/</a><br/>
     •	Maintained the company’s Shopify website. <br/>
